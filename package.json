@@ -1,0 +1,27 @@
+{
+    "name": "theme-go",
+    "displayName": "Go Themes (playground & src)",
+    "description": "Themes that minics play.golang.org and golang.org/src/",
+    "version": "0.0.1",
+    "publisher": "mikegleasonjr",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Go - Playground",
+                "uiTheme": "vs",
+                "path": "./themes/playground.tmTheme"
+            },
+            {
+                "label": "Go - Sources",
+                "uiTheme": "vs",
+                "path": "./themes/sources.tmTheme"
+            }
+        ]
+    }
+}
